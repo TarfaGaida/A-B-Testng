@@ -82,11 +82,10 @@ Statistical Test Result
 Z-statistic = 1.31
 The observed difference between both groups is approximately 1.31 standard deviations away from the null hypothesis value.
 P-value = 0.1897
+
 This represents the probability of obtaining the observed result (or a more extreme result) assuming the null hypothesis is true.
 Hypothesis Decision
-
 Because the P-value (0.1897) > 0.05, we fail to reject the null hypothesis (H0).
-
 This means there is no statistically significant difference in conversion rates between the old homepage and the new homepage design.
 
 💡 Business Insight
@@ -105,20 +104,20 @@ Additional analysis can be performed by segmenting users based on demographics, 
 - Optimize the New Homepage Design
 Instead of fully discarding the new design, further evaluation should identify which sections of the homepage may need improvement, such as:
 
-CTA button placement
-Product visibility
-Navigation flow
-Visual hierarchy
-Mobile responsiveness
+-CTA button placement
+-Product visibility
+-Navigation flow
+-Visual hierarchy
+-Mobile responsiveness
 
 - Evaluate Additional Metrics
 Conversion rate alone may not fully capture user engagement. Future analysis should also consider other performance metrics, including:
 
-Time spent on page
-Bounce rate
-Number of pages visited
-Click-through rate (CTR)
-User engagement behavior
+-Time spent on page
+-Bounce rate
+-Number of pages visited
+-Click-through rate (CTR)
+-User engagement behavior
 
 
 These metrics can provide deeper insights into how users interact with the homepage and help identify opportunities for optimization.
