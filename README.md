@@ -1,11 +1,16 @@
 A/B Testing Homepage Conversion Rate Analysis
+
+
+Dataset yang digunakan adalah
+https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data
+
 📌 Project Overview
 
 This project analyzes the impact of a new homepage design on the conversion rate of an e-commerce website using A/B Testing methodology.
 The experiment compares user behavior between:
-
-Control Group → users who saw the old homepage design
-Treatment Group → users who saw the new homepage design
+- Control Group → users who saw the old homepage design
+- Treatment Group → users who saw the new homepage design
+- 
 The main objective is to determine whether the new homepage design significantly improves conversion rates.
 
 
@@ -14,19 +19,12 @@ The main objective is to determine whether the new homepage design significantly
 To evaluate whether the redesigned homepage increases the website conversion rate compared to the previous homepage design.
 
 🧪 Hypothesis Testing
-Null Hypothesis (H0)
-
-Null Hypothesis (H0)
-
+- Null Hypothesis (H0)
 There is no significant difference in conversion rate after the homepage redesign.
-
 H0​:Conversion Rateold​ = Conversion Ratenew​
-	​
-
-Alternative Hypothesis (H1)
-
+​
+- Alternative Hypothesis (H1)
 There is a significant difference in conversion rate after the homepage redesign.
-
 H1​:Conversion Rate old​ (not same) Conversion Ratenew​
 	​
 
@@ -34,31 +32,33 @@ H1​:Conversion Rate old​ (not same) Conversion Ratenew​
 
 📂 Dataset Description
 Column	Description
-user_id: unique id of the user who came to the website
-timestamp: timestamp that the user came to the page
-group: whether the user in treatment group or control group
-landing_page: whether the user saw the old page or new page
-converted: whether the user converted to a paid user. 1 means converted, 0 means not converted.
+- user_id: unique id of the user who came to the website
+- timestamp: timestamp that the user came to the page
+- group: whether the user in treatment group or control group
+- landing_page: whether the user saw the old page or new page
+- converted: whether the user converted to a paid user. 1 means converted, 0 means not converted.
 
 Group Definition
-Control Group → Old homepage design
-Treatment Group → New homepage design
+- Control Group → Old homepage design
+- Treatment Group → New homepage design
 
 ⚙️ Tools & Libraries
-Python
-Pandas
-NumPy
-SciPy
-Statsmodels
-Matplotlib / Seaborn
+-Python
+-Pandas
+-NumPy
+-SciPy
+-Statsmodels
+-Matplotlib / Seaborn
 
 🔍 Analysis Steps
-Data Cleaning & Validation
-Exploratory Data Analysis (EDA)
-Calculate Conversion Rate per Group
-Perform Statistical Hypothesis Testing
-Analyze p-value and Confidence Level
-Draw Business Conclusion & Recommendation
+-Data Cleaning & Validation
+-Exploratory Data Analysis (EDA)
+-Calculate Conversion Rate per Group
+-Perform Statistical Hypothesis Testing
+-Analyze p-value and Confidence Level
+-Draw Business Conclusion & Recommendation
+
+
 📊 Statistical Method
 
 This project uses:
