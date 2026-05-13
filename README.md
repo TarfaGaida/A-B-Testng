@@ -1,7 +1,7 @@
 A/B Testing Homepage Conversion Rate Analysis
 
 
-Dataset yang digunakan adalah
+Dataset:
 https://www.kaggle.com/datasets/zhangluyuan/ab-testing/data
 
 📌 Project Overview
