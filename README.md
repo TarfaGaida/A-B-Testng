@@ -10,7 +10,6 @@ This project analyzes the impact of a new homepage design on the conversion rate
 The experiment compares user behavior between:
 - Control Group → users who saw the old homepage design
 - Treatment Group → users who saw the new homepage design
-- 
 The main objective is to determine whether the new homepage design significantly improves conversion rates.
 
 
